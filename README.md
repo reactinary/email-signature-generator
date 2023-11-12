@@ -8,6 +8,7 @@
 # Locally
 DATABASE_URL="postgresql://postgres:< YOUR_PASSWORD >@localhost:5434/mydb?schema=public"
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""
+NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=""
 ```
 
 To get your NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME from Cloudinary :
@@ -16,23 +17,7 @@ To get your NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME from Cloudinary :
 3. Copy/Paste `cloud_name` (should look like `dzsye542r`)
 
 ----
-----
 
-
-You will also need to add your own UploadPreset in the CldUploadBtn:
-
-```js
-// create/page.tsx
-
-  <CldUploadButton
-    (...)
-    uploadPreset="fuv4kfwy" // <----- you need to change this
-  />
-</Button>
-```
-
------
-
-
+To get your NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET from Cloudinary :
 1. Go to Settings > Upload > Upload Presets > Add upload preset
-2. Copy/Paste
+2. Copy/Paste (should like like 'fuv4kfvy')
