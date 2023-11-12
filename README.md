@@ -15,6 +15,9 @@ To get your NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME from Cloudinary :
 2. Go to Programmable Media > Getting started
 3. Copy/Paste `cloud_name` (should look like `dzsye542r`)
 
+----
+----
+
 
 You will also need to add your own UploadPreset in the CldUploadBtn:
 
@@ -27,6 +30,9 @@ You will also need to add your own UploadPreset in the CldUploadBtn:
   />
 </Button>
 ```
+
+-----
+
 
 1. Go to Settings > Upload > Upload Presets > Add upload preset
 2. Copy/Paste
